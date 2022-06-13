@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import scroll from "../Media/img/scroll.png";
 
 const Hero = () => {
   const herodetails = [
@@ -15,11 +17,17 @@ const Hero = () => {
   ];
   return (
     <div className="grid-container py-8.6  bg-gradient-to-tl from-darkgray to-lightgray ">
+      <div className="absolute top-1/2 -translate-x-1/2 -translate-y-1/2 left-44.5 z-10 w-48 animate-bounce ">
+        <a href="#more">
+          <img src={scroll} alt="home" />
+        </a>
+      </div>
       <div className="container w-1/2 ">
         <h1 className="text-6xl max-w-md text-white font-semibold leading-tight">
           Choose Your Favorite Coffee And Enjoy
           <span className="text-orange-400">.</span>
         </h1>
+
         <p className="text-gray-300 text-xl py-14 border-b-2 max-w-sm">
           Buy the best and delicious coffees.
         </p>

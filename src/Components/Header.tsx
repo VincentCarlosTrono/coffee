@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import {
   ROUTER_PATH_BLOG,
   ROUTER_PATH_HOME,
@@ -35,23 +35,32 @@ const Header = () => {
     });
   });
 
+  const location = useLocation();
+
+  const isPathnameProducts = location.pathname === ROUTER_PATH_PRODUCTS;
+
   return (
     <div
-      className={` w-full grid-container fixed top-0 z-10 py-3.5 ${
-        scroll && "bg-white text-black shadow-xl"
-      }`}
+      className={` w-full grid-container fixed top-0 z-20 py-3.5 ${
+        (scroll || isPathnameProducts) && "bg-white text-black shadow-lg"
+      } `}
     >
       <div className="container  flex justify-between py-3 ">
-        <div className="flex items-center justify-center ">
-          <box-icon color={scroll ? "black" : "white"} name="coffee"></box-icon>
-          <h1
-            className={` font-semibold p-1 ${
-              scroll ? "text-black" : "text-white"
-            }`}
-          >
-            Coffee.
-          </h1>
-        </div>
+        <Link to={ROUTER_PATH_HOME}>
+          <div className="flex items-center justify-center ">
+            <box-icon
+              color={scroll || isPathnameProducts ? "black" : "white"}
+              name="coffee"
+            ></box-icon>
+            <h1
+              className={` font-semibold p-1 hover:text-orange-500 ${
+                scroll || isPathnameProducts ? "text-black" : "text-white"
+              } `}
+            >
+              Coffee.
+            </h1>
+          </div>
+        </Link>
         <div className="flex items-center ">
           <ul className="flex">
             {headerlists.map((headerlist: any) => {
@@ -60,8 +69,8 @@ const Header = () => {
                 <Link to={path}>
                   <li
                     className={`text-white px-10 border-r-2 border-gray-500 font-semibold hover:cursor-pointer hover:text-orange-400 ${
-                      scroll && "text-black"
-                    }`}
+                      (scroll || isPathnameProducts) && "text-black"
+                    } `}
                   >
                     {list}
                   </li>

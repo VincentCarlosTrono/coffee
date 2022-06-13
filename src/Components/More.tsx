@@ -26,7 +26,7 @@ const More = () => {
   ];
 
   return (
-    <div className="grid-container pt-28 pb-20">
+    <div className="grid-container pt-28 pb-20" id="more">
       <div className="container">
         <div className="flex justify-between items-center">
           <Title
@@ -34,7 +34,7 @@ const More = () => {
             subtitle="happy and cheer you up!"
           />
           <Link to={ROUTER_PATH_PRODUCTS}>
-            <button className="px-10 py-5 bg-black text-white rounded-lg">
+            <button className="px-10 py-5 bg-black text-white rounded-lg animate-bounce">
               SEE MORE
             </button>
           </Link>
