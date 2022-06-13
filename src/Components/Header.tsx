@@ -37,24 +37,24 @@ const Header = () => {
 
   const location = useLocation();
 
-  const isPathnameProducts = location.pathname === ROUTER_PATH_PRODUCTS;
+  const isPathnameHome = location.pathname === ROUTER_PATH_HOME;
 
   return (
     <div
       className={` w-full grid-container fixed top-0 z-20 py-3.5 ${
-        (scroll || isPathnameProducts) && "bg-white text-black shadow-lg"
+        (scroll || !isPathnameHome) && "bg-white text-black shadow-lg"
       } `}
     >
       <div className="container  flex justify-between py-3 ">
         <Link to={ROUTER_PATH_HOME}>
           <div className="flex items-center justify-center ">
             <box-icon
-              color={scroll || isPathnameProducts ? "black" : "white"}
+              color={scroll || !isPathnameHome ? "black" : "white"}
               name="coffee"
             ></box-icon>
             <h1
               className={` font-semibold p-1 hover:text-orange-500 ${
-                scroll || isPathnameProducts ? "text-black" : "text-white"
+                scroll || !isPathnameHome ? "text-black" : "text-white"
               } `}
             >
               Coffee.
@@ -69,7 +69,7 @@ const Header = () => {
                 <Link to={path}>
                   <li
                     className={`text-white px-10 border-r-2 border-gray-500 font-semibold hover:cursor-pointer hover:text-orange-400 ${
-                      (scroll || isPathnameProducts) && "text-black"
+                      (scroll || !isPathnameHome) && "text-black"
                     } `}
                   >
                     {list}

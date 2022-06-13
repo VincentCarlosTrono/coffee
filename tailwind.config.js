@@ -11,7 +11,8 @@ module.exports = {
       },
       spacing: {
         "8.6": "8.6rem",
-        "44.5": "44.5%"
+        "44.5": "44.5%",
+        "28rem": "28rem"
       },
       colors: {
         light: "#B0B0B0",
