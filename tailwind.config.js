@@ -10,7 +10,7 @@ module.exports = {
         homeImage: "url('/src/Media/img/home.png')"
       },
       spacing: {
-        "8.6": "8.6rem",
+        "10rem": "10rem",
         "44.5": "44.5%",
         "28rem": "28rem"
       },

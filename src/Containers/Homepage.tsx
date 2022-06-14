@@ -7,7 +7,7 @@ const Homepage = () => {
     <>
       <Hero />
       <More />
-      <div className="background absolute"></div>
+      <div className="background absolute md:block hidden"></div>
     </>
   );
 };

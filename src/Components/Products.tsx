@@ -44,12 +44,12 @@ const Products = () => {
         <div className="pt-40 ">
           <Title title="Choose our delicious and best products" />
         </div>
-        <div className="flex justify-between max-w-3xl py-24">
+        <div className="grid md:grid-cols-3 grid-cols-2 gap-5 md:gap-10 max-w-3xl py-12 md:py-24">
           {productDetails.map((productDetail: any) => {
             const { name, product } = productDetail;
             return (
-              <div className="border-r-2 pr-10">
-                <h1 className="text-2xl text-gray-500 hover:text-gray-800 hover:cursor-pointer">
+              <div className="border-r-2 md:pr-10">
+                <h1 className="text-xl md:text-2xl text-gray-500 hover:text-gray-800 hover:cursor-pointer">
                   {name}
                 </h1>
                 <p className="text-light">{product}</p>
@@ -57,12 +57,12 @@ const Products = () => {
             );
           })}
         </div>
-        <div className="grid grid-cols-3 gap-20 justify-between max-w-5xl pb-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 p-14 md:px-0 gap-10 md:gap-20 justify-between max-w-5xl pb-20">
           {productItems.map((productItem: any) => {
             const { image, price, name } = productItem;
             return (
               <div className="relative">
-                <div className="bg-lighter py-10 px-8 rounded-t-lg ">
+                <div className="bg-lighter md:py-10 px-8 rounded-t-lg ">
                   <img
                     className="h-52 hover:-translate-y-2 hover:cursor-pointer "
                     src={image}
