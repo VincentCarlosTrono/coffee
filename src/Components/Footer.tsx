@@ -1,5 +1,4 @@
 import React from "react";
-import Flag from "../Media/img/footerflag.png";
 
 const Footer = () => {
   const footerInfos = [

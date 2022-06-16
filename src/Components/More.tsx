@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ROUTER_PATH_PRODUCTS } from "../Constant";
+import Title from "./Title";
 import Specialty1 from "../Media/img/specialty1.png";
 import Specialty2 from "../Media/img/specialty2.png";
 import Specialty3 from "../Media/img/specialty3.png";
-import Title from "./Title";
+import { ROUTER_PATH_PRODUCTS } from "../Constant";
 
 const More = () => {
   const specialties = [
