@@ -5,7 +5,7 @@ import { ROUTER_PATH_HOME, ROUTER_PATH_PRODUCTS } from "../Constant";
 
 const Premium = () => {
   return (
-    <div className="md:flex gap-36 w-full justify-between border-b-2 pb-24">
+    <div className="md:flex gap-36 md:pt-48 w-full justify-between border-b-2 pb-24">
       <div className="md:w-1/2 h-1/2 md:h-28rem rounded-lg overflow-hidden md:px-0 px-10">
         <img
           className=" md:w-full md:h-full rounded-lg"

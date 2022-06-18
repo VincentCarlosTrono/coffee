@@ -25,7 +25,7 @@ const PremiumPartners = () => {
   ];
 
   return (
-    <div className="md:flex grid grid-cols-3 md:gap-32 py-14 md:pb-0 ">
+    <div className="md:flex grid grid-cols-3 md:gap-32 py-14 md:pb-13 ">
       {partners.map((partner: any) => {
         const { image } = partner;
         return (
