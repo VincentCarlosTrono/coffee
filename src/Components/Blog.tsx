@@ -1,16 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import feature1 from "../Media/img/blog1.png";
 import feature2 from "../Media/img/blog2.png";
 import { ROUTER_PATH_PRODUCTS } from "../Constant";
 
 const Blog = () => {
+  const { t } = useTranslation();
   const blogFeatures = [
     {
       image: feature1,
-      name: "10 Coffee Recomendations",
-      description:
-        "The blogs about coffee will help you a lot about hot it is prepared. it's waiting time, for a good quality coffee.",
+      name: t("Blog.BlogFeature1.Name"),
+      description: t("Blog.BlogFeature1.Description"),
       icon: <box-icon color="gray" name="message-square-dots"></box-icon>,
       comment: "12",
       icon2: <box-icon color="gray" name="low-vision"></box-icon>,
@@ -18,9 +19,8 @@ const Blog = () => {
     },
     {
       image: feature2,
-      name: "12 Benefits Of Drinking Coffee",
-      description:
-        "The blogs about coffee will help you a lot about hot it is prepared. it's waiting time, for a good quality coffee.",
+      name: t("Blog.BlogFeature2.Name"),
+      description: t("Blog.BlogFeature2.Description"),
       icon: <box-icon color="gray" name="message-square-dots"></box-icon>,
       comment: "45",
       icon2: <box-icon color="gray" name="low-vision"></box-icon>,

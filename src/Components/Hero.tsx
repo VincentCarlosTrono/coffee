@@ -1,18 +1,19 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import scroll from "../Media/img/scroll.png";
 import home from "../Media/img/home.png";
-
 const Hero = () => {
+  const { t } = useTranslation();
   const herodetails = [
     {
       number: "120k",
-      title: "Testimonials",
-      detail: "Testimonials from various customers who trust.",
+      title: t("Home.HeroDetails1.Title"),
+      detail: t("Home.HeroDetails1.Details"),
     },
     {
       number: "340+",
-      title: "Exclusive Product",
-      detail: "Premium preparation with quality ingredients.",
+      title: t("Home.HeroDetails2.Title"),
+      detail: t("Home.HeroDetails2.Details"),
     },
   ];
   return (
@@ -25,12 +26,12 @@ const Hero = () => {
         </div>
         <div className="container md:w-1/2 ">
           <h1 className="md:text-6xl text-4xl max-w-md text-white font-semibold leading-tight md:pt-0 pt-28">
-            Choose Your Favorite Coffee And Enjoy
+            {t("Home.Title")}
             <span className="text-orange-400">.</span>
           </h1>
 
           <p className="text-gray-300 text-sm md:text-xl py-7 md:py-14 border-b-2 max-w-xs md:max-w-sm">
-            Buy the best and delicious coffees.
+            {t("Home.SubTitle")}
           </p>
           <div className="flex md:gap-10 gap-5 pr-5 md:pr-10">
             {herodetails.map((herodetail: any) => {

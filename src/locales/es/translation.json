@@ -1,0 +1,100 @@
+{
+  "Common": {
+    "Buy-Now": "COMPRAR AHORA",
+    "See-More": "VER MÁS"
+  },
+  "Home": {
+    "Title": " Elige tu café favorito y disfruta",
+    "SubTitle": "Compra los mejores y deliciosos cafés.",
+    "HeroDetails1": {
+      "Title": "Testimonios",
+      "Details": "Testimonios de varios clientes que confían."
+    },
+    "HeroDetails2": {
+      "Title": "Producto exclusivo",
+      "Details": "Preparación premium con ingredientes de calidad."
+    }
+  },
+  "More": {
+    "Title": "Café de especialidad que te hace",
+    "SubTitile": "¡feliz y anímate!",
+    "Specialties1": {
+      "Name": "Café seleccionado",
+      "Description": "Seleccionamos el mejor café premium, para un verdadero sabor."
+    },
+    "Specialties2": {
+      "Name": "Deliciosas galletas",
+      "Description": "Disfruta de tu café con unas galletas calientes."
+    },
+    "Specialties3": {
+      "Name": "Disfruta en casa",
+      "Description": "Disfruta del mejor café en la comodidad de tu tiempo."
+    }
+  },
+
+  "Blog": {
+    "Title": "Nuestros Blogs Café con trending topic para",
+    "SubTitle": " esta semana",
+    "BlogFeature1": {
+      "Name": "10 Recomendaciones de Café",
+      "Description": "Los blogs sobre café te ayudarán mucho sobre el calor que se prepara. es tiempo de espera, para un café de buena calidad."
+    },
+    "BlogFeature2": {
+      "Name": "12 beneficios de beber café",
+      "Description": "Los blogs sobre café te ayudarán mucho sobre el calor que se prepara. es tiempo de espera, para un café de buena calidad."
+    }
+  },
+  "Premium": {
+    "Title": "Ofrecemos una prima y mejor calidad",
+    "Subtitle": "preparación solo para ti!",
+    "Product": {
+      "Name": "Café Premium",
+      "Details": "Estamos encantados con nuestro café. Es por eso que obtienes el mejor café premium más el hervidor de agua hecho de materiales resistentes que ves en la imagen. por un precio especial.",
+      "Especial-Price": "Precio especial"
+    }
+  },
+  "Product": {
+    "Title": "Elige nuestros deliciosos y mejores productos",
+    "ProductDetails1": {
+      "Name": "Nuevas delicias",
+      "Product": "3 Productos"
+    },
+    "ProductDetails2": {
+      "Name": "Café caliente",
+      "Product": "4 Productos"
+    },
+    "ProductDetails3": {
+      "Name": "Pasteles y delicias",
+      "Product": "4 Productos"
+    },
+    "ProductItem1-Name": "Galletas",
+    "ProductItem2-Name": "Creciente",
+    "ProductItem3-Name": "Pretzel"
+  },
+  "Navigation": {
+    "Home": "Hogar",
+    "Products": "Productos",
+    "Premium": "Prima",
+    "Blog": "Blog"
+  },
+  "Footer": {
+    "Newsleter": "Suscríbete a nuestra newsletter",
+    "Email-Placeholder": "Su dirección de correo electrónico",
+    "FooterInfo1": {
+      "Name": "Dirección",
+      "Info1": "9897 Hacienda Av.",
+      "Info2": "Lima, La Libertad 123, Peru"
+    },
+    "FooterInfo2": {
+      "Name": "Contact",
+      "Info1": "+987654321",
+      "Info2": "Coffee@email.com"
+    },
+    "FooterInfo3": {
+      "Name": "Office",
+      "Info1": "Monday - Saturday",
+      "Info2": "9AM - 10PM"
+    }
+  },
+  "Title": "Coffee."
+}

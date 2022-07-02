@@ -1,24 +1,26 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import Delicacy1 from "../Media/img/delicacies1.png";
 import Delicacy2 from "../Media/img/delicacies2.png";
 import Delicacy3 from "../Media/img/delicacies3.png";
 
 const ProductItems = () => {
+  const { t } = useTranslation();
   const productItems = [
     {
       image: Delicacy1,
       price: "$5",
-      name: "Cookies",
+      name: t("Product.ProductItem1-Name"),
     },
     {
       image: Delicacy2,
       price: "$6",
-      name: "Croissant",
+      name: t("Product.ProductItem2-Name"),
     },
     {
       image: Delicacy3,
       price: "$4",
-      name: "Pretzel",
+      name: t("Product.ProductItem3-Name"),
     },
   ];
   return (

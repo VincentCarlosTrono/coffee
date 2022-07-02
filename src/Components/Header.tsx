@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
 import {
   ROUTER_PATH_BLOG,
@@ -8,21 +9,23 @@ import {
 } from "../Constant";
 
 const Header = () => {
+  const { t, i18n } = useTranslation();
+
   const headerlists = [
     {
-      list: "Home",
+      list: t("Navigation.Home"),
       path: ROUTER_PATH_HOME,
     },
     {
-      list: "Products",
+      list: t("Navigation.Products"),
       path: ROUTER_PATH_PRODUCTS,
     },
     {
-      list: "Premium",
+      list: t("Navigation.Premium"),
       path: ROUTER_PATH_PREMIUM,
     },
     {
-      list: "Blog",
+      list: t("Navigation.Blog"),
       path: ROUTER_PATH_BLOG,
     },
   ];
@@ -40,6 +43,10 @@ const Header = () => {
   const location = useLocation();
 
   const isPathnameHome = location.pathname === ROUTER_PATH_HOME;
+
+  const changeLanguage = (language: string) => {
+    i18n.changeLanguage(language);
+  };
 
   return (
     <div>
@@ -61,7 +68,7 @@ const Header = () => {
                     scroll || !isPathnameHome ? "text-black" : "text-white"
                   } `}
                 >
-                  Coffee.
+                  {t("Title")}
                 </h1>
               </Link>
             </div>
@@ -82,6 +89,22 @@ const Header = () => {
                   </Link>
                 );
               })}
+              <select
+                className={` ml-5 bg-transparent   text-white font-semibold ${
+                  (scroll || !isPathnameHome) && "text-black "
+                } `}
+                onChange={(event) => changeLanguage(event.target.value)}
+              >
+                <option value="en" className="text-black">
+                  EN
+                </option>
+                <option value="ja" className="text-black">
+                  JA
+                </option>
+                <option value="es" className="text-black">
+                  ES
+                </option>
+              </select>
             </ul>
           </div>
           <div className="md:hidden block">

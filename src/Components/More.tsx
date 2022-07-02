@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import Title from "./Title";
 import Specialty1 from "../Media/img/specialty1.png";
 import Specialty2 from "../Media/img/specialty2.png";
@@ -7,21 +8,22 @@ import Specialty3 from "../Media/img/specialty3.png";
 import { ROUTER_PATH_PRODUCTS } from "../Constant";
 
 const More = () => {
+  const { t } = useTranslation();
   const specialties = [
     {
       image: Specialty1,
-      name: "Selected Coffee",
-      description: "We select the best premium coffee, for a true taste.",
+      name: t("More.Specialties1.Name"),
+      description: t("More.Specialties1.Description"),
     },
     {
       image: Specialty2,
-      name: "Delicious Cookies",
-      description: "Enjoy your coffee with some hot cookies.",
+      name: t("More.Specialties2.Name"),
+      description: t("More.Specialties2.Description"),
     },
     {
       image: Specialty3,
-      name: "Enjoy at Home",
-      description: "Enjoy the best coffee in the comfort of your time.",
+      name: t("More.Specialties3.Name"),
+      description: t("More.Specialties3.Description"),
     },
   ];
 
@@ -30,15 +32,12 @@ const More = () => {
       <div className="container">
         <div className="md:flex justify-between items-center">
           <div className="py-5 md:py-0">
-            <Title
-              title="Specialty coffee that makes you"
-              subtitle="happy and cheer you up!"
-            />
+            <Title title={t("More.Title")} subtitle={t("More.SubTitile")} />
           </div>
 
           <Link to={ROUTER_PATH_PRODUCTS}>
             <button className=" text-sm md:text-lg px-5 py-3 md:px-10 md:py-5 bg-black text-white rounded-lg md:animate-bounce">
-              SEE MORE
+              {t("Common.See-More")}
             </button>
           </Link>
         </div>

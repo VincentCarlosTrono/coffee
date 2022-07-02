@@ -1,0 +1,100 @@
+{
+  "Common": {
+    "Buy-Now": "BUY NOW",
+    "See-More": "SEE MORE"
+  },
+  "Home": {
+    "Title": " Choose Your Favorite Coffee And Enjoy",
+    "SubTitle": "Buy the best and delicious coffees.",
+    "HeroDetails1": {
+      "Title": "Testimonials",
+      "Details": "Testimonials from various customers who trust."
+    },
+    "HeroDetails2": {
+      "Title": "Exclusive Product",
+      "Details": "Premium preparation with quality ingredients."
+    }
+  },
+  "More": {
+    "Title": "Specialty coffee that makes you",
+    "SubTitile": "happy and cheer you up!",
+
+    "Specialties1": {
+      "Name": "Selected Coffee",
+      "Description": "We select the best premium coffee, for a true taste."
+    },
+    "Specialties2": {
+      "Name": "Delicious Cookies",
+      "Description": "Enjoy your coffee with some hot cookies."
+    },
+    "Specialties3": {
+      "Name": "Enjoy at Home",
+      "Description": "Enjoy the best coffee in the comfort of your time."
+    }
+  },
+  "Blog": {
+    "Title": "Our Blogs Coffee with trending topic for",
+    "SubTitle": " this week",
+    "BlogFeature1": {
+      "Name": "10 Coffee Recomendations",
+      "Description": "The blogs about coffee will help you a lot about hot it is prepared. it's waiting time, for a good quality coffee."
+    },
+    "BlogFeature2": {
+      "Name": "12 Benefits Of Drinking Coffee",
+      "Description": "The blogs about coffee will help you a lot about hot it is prepared. it's waiting time, for a good quality coffee."
+    }
+  },
+  "Premium": {
+    "Title": "We offer a premium and better quality",
+    "Subtitle": "preparation just for you!",
+    "Product": {
+      "Name": "Premium Coffee",
+      "Details": "We are delighted with our coffee. That's why you get the best premium coffee plus the kettle made of resistant materials that you see in the image. for a special price.",
+      "Especial-Price": "Especial Price"
+    }
+  },
+  "Product": {
+    "Title": "Choose our delicious and best products",
+    "ProductDetails1": {
+      "Name": "New Delicacies",
+      "Product": "3 Products"
+    },
+    "ProductDetails2": {
+      "Name": "Hot Coffee",
+      "Product": "4 Products"
+    },
+    "ProductDetails3": {
+      "Name": "Cakes And Delicacies",
+      "Product": "4 Products"
+    },
+    "ProductItem1-Name": "Cookies",
+    "ProductItem2-Name": "Croissant",
+    "ProductItem3-Name": "Pretzel"
+  },
+  "Navigation": {
+    "Home": "Home",
+    "Products": "Products",
+    "Premium": "Premium",
+    "Blog": "Blog"
+  },
+  "Footer": {
+    "Newsleter": "Subscribe to our newsletter",
+    "Email-Placeholder": "Your Email Address",
+    "FooterInfo1": {
+      "Name": "Address",
+      "Info1": "9897 Hacienda Av.",
+      "Info2": "Lima, La Libertad 123, Peru"
+    },
+    "FooterInfo2": {
+      "Name": "Contact",
+      "Info1": "+987654321",
+      "Info2": "Coffee@email.com"
+    },
+    "FooterInfo3": {
+      "Name": "Office",
+      "Info1": "Monday - Saturday",
+      "Info2": "9AM - 10PM"
+    }
+  },
+  "Title": "Coffee."
+}

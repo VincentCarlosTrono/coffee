@@ -1,21 +1,23 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
   const footerInfos = [
     {
-      title: "Address",
-      detail1: "9897 Hacienda Av.",
-      detail2: "Lima, La Libertad 123, Peru",
+      title: t("Footer.FooterInfo1.Name"),
+      detail1: t("Footer.FooterInfo1.Info1"),
+      detail2: t("Footer.FooterInfo1.Info2"),
     },
     {
-      title: "Contact",
-      detail1: "+987654321",
-      detail2: "Coffee@email.com",
+      title: t("Footer.FooterInfo2.Name"),
+      detail1: t("Footer.FooterInfo2.Info1"),
+      detail2: t("Footer.FooterInfo2.Info2"),
     },
     {
-      title: "Office",
-      detail1: "Monday - Saturday",
-      detail2: "9AM - 10PM",
+      title: t("Footer.FooterInfo3.Name"),
+      detail1: t("Footer.FooterInfo3.Info1"),
+      detail2: t("Footer.FooterInfo3.Info2"),
     },
   ];
 
@@ -24,13 +26,13 @@ const Footer = () => {
       <div className="container ">
         <div className="  md:flex justify-between border-b-2 py-10">
           <div>
-            <h1 className="text-white text-2xl ">Coffee.</h1>
-            <p className="text-light py-4">Subscribe to our newsletter</p>
+            <h1 className="text-white text-2xl ">{t("Title")}</h1>
+            <p className="text-light py-4">{t("Footer.Newsleter")}</p>
             <div className="flex justify-center items-center md:py-0 py-10 gap-2 ">
               <input
                 className="px-10 py-5 rounded-xl"
                 type="text"
-                placeholder="Your email address"
+                placeholder={t("Footer.Email-Placeholder")}
               />
               <button className="py-4 px-5 bg-orange-500 rounded-xl">
                 <div className="rotate-45 hover:-translate-y-1 hover:translate-x-1">

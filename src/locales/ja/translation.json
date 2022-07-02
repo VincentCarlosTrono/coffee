@@ -1,0 +1,101 @@
+{
+  "Common": {
+    "Buy-Now": "今すぐ購入",
+    "See-More": "もっと見る"
+  },
+  "Home": {
+    "Title": "お気に入りのコーヒーを選んでお楽しみください",
+    "SubTitle": "最高でおいしいコーヒーを購入してください。",
+    "HeroDetails1": {
+      "Title": "声",
+      "Details": "信頼する様々なお客様からの声。"
+    },
+    "HeroDetails2": {
+      "Title": "限定商品",
+      "Details": "高品質の成分を使用したプレミアムな準備。"
+    }
+  },
+  "More": {
+    "Title": "あなたを作るスペシャルティコーヒー",
+    "SubTitile": "幸せとあなたを元気づける!",
+    "See-More": "もっと見る",
+    "Specialties1": {
+      "Name": "厳選コーヒー",
+      "Description": "私たちは本当の味のために、最高のプレミアムコーヒーを選びます。"
+    },
+    "Specialties2": {
+      "Name": "おいしいクッキー",
+      "Description": "ホットクッキーでコーヒーをお楽しみください。"
+    },
+    "Specialties3": {
+      "Name": "自宅で楽しむ",
+      "Description": "あなたの時間の快適さで最高のコーヒーをお楽しみください。"
+    }
+  },
+  "Blog": {
+    "Title": "私たちのブログのトレンドトピックとコーヒー",
+    "SubTitle": "今週",
+    "BlogFeature1": {
+      "Name": "10 コーヒーの推奨",
+      "Description": "コーヒーについてのブログは、それが準備されている熱いことについてあなたに大いに役立つでしょう。それは良質のコーヒーのための待ち時間です。"
+    },
+    "BlogFeature2": {
+      "Name": "コーヒーを飲むことの12の利点",
+      "Description": "コーヒーについてのブログは、それが準備されている熱いことについてあなたに大いに役立つでしょう。それは良質のコーヒーのための待ち時間です。"
+    }
+  },
+  "Premium": {
+    "Title": "私たちはプレミアムとより良い品質を提供します",
+    "Subtitle": "あなたのためだけに準備!",
+    "Product": {
+      "Name": "プレミアムコーヒー",
+      "Details": "私たちはコーヒーに満足しています。だからこそ、最高のプレミアムコーヒーと、画像に見られる耐性のある素材で作られたケトルを手に入れることができます。特別価格で。",
+      "Especial-Price": "特別価格"
+    }
+  },
+  "Product": {
+    "Title": "私たちの美味しくて最高の製品を選択してください",
+    "ProductDetails1": {
+      "Name": "新しい珍味",
+      "Product": "3 製品"
+    },
+    "ProductDetails2": {
+      "Name": "ホットコーヒー",
+      "Product": "4 製品"
+    },
+    "ProductDetails3": {
+      "Name": "ケーキと珍味",
+      "Product": "4 製品"
+    },
+    "ProductItem1-Name": "クッキー",
+    "ProductItem2-Name": "三日月",
+    "ProductItem3-Name": "プレッツェル"
+  },
+  "Navigation": {
+    "Home": "家",
+    "Products": "プロダクツ",
+    "Premium": "プレミアム",
+    "Blog": "ブログ"
+  },
+  "Footer": {
+    "Title": "コーヒー。",
+    "Newsleter": "ニュースレターを購読する",
+    "Email-Placeholder": "あなたのEメールアドレス",
+    "FooterInfo1": {
+      "Name": "住所",
+      "Info1": "9897 Hacienda Av.",
+      "Info2": "Lima, La Libertad 123, Peru"
+    },
+    "FooterInfo2": {
+      "Name": "接触",
+      "Info1": "+987654321",
+      "Info2": "Coffee@email.com"
+    },
+    "FooterInfo3": {
+      "Name": "オフィス",
+      "Info1": "月曜日 - 土曜日",
+      "Info2": "午前9時~午後10時"
+    }
+  },
+  "Title": "Coffee."
+}
